@@ -1,0 +1,29 @@
+<mat-toolbar color="primary" class="nav-bar">
+  <button mat-button (click)="sidenav.toggle()" class="menu-btn">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span class="spacer"></span>
+  <span>LANG Institute</span>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" opened="true">
+    <div class="sidenav-inner-wrapper">
+
+      <p class="sidenav-item">
+        <mat-icon class="sidenav-icon">people</mat-icon>
+        <a [routerLink]="['/students']" routerLinkActive="sidenav-link-active" class="sidenav-link">Students</a>
+      </p>
+
+      <p class="sidenav-item">
+        <mat-icon class="sidenav-icon">book</mat-icon>
+        <a [routerLink]="['/courses']" routerLinkActive="sidenav-link-active" class="sidenav-link">Course</a>
+      </p>
+
+    </div>
+  </mat-sidenav>
+  
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</mat-sidenav-container>
