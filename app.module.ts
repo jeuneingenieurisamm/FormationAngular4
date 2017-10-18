@@ -2,9 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// Modules from Angular Material used in the template
 import { MatToolbarModule, MatSidenavModule, MatButtonModule, MatIconModule } from '@angular/material';
-
-import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
@@ -19,8 +18,7 @@ import { AppComponent } from './app.component';
     MatToolbarModule,
     MatSidenavModule,
     MatButtonModule,
-    MatIconModule,
-    AppRoutingModule
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
