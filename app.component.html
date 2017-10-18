@@ -1,29 +1,51 @@
+<!-- Navbar starts -->
 <mat-toolbar color="primary" class="nav-bar">
+  
+  <!-- Button to open the Side Menu -->
   <button mat-button (click)="sidenav.toggle()" class="menu-btn">
     <mat-icon>menu</mat-icon>
   </button>
+  
   <span class="spacer"></span>
+  
+  <!-- App title -->
   <span>LANG Institute</span>
+  
 </mat-toolbar>
+<!-- Navbar ends -->
 
+<!-- Side Menu and Content -->
 <mat-sidenav-container>
+  
+  <!-- Side Menu starts -->
   <mat-sidenav #sidenav mode="side" opened="true">
+    
     <div class="sidenav-inner-wrapper">
 
+      <!-- Side menu items starts -->
       <p class="sidenav-item">
         <mat-icon class="sidenav-icon">people</mat-icon>
-        <a [routerLink]="['/students']" routerLinkActive="sidenav-link-active" class="sidenav-link">Students</a>
+        <a class="sidenav-link">Students</a>
       </p>
 
       <p class="sidenav-item">
         <mat-icon class="sidenav-icon">book</mat-icon>
-        <a [routerLink]="['/courses']" routerLinkActive="sidenav-link-active" class="sidenav-link">Course</a>
+        <a class="sidenav-link">Courses</a>
       </p>
+      <!-- Side menu items ends -->
 
     </div>
+    
   </mat-sidenav>
+  <!-- Side Menu ends -->
   
+  <!-- Content starts -->
   <div class="content">
-    <router-outlet></router-outlet>
+    
+    <!-- Any app content goes here -->
+    
   </div>
+  <!-- Content ends -->
+  
 </mat-sidenav-container>
+<!-- Side Menu and Content -->
