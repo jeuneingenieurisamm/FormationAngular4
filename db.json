@@ -1,395 +1,375 @@
 {
   "courses": [
     {
-      "id" : 0,
-      "label" : "Intensive English Course",
-      "session" : "SUMMER",
-      "language" : "EN",
-      "level" : "A1",
-      "startDate" : 1527894000,
-      "finishDate" : 1538348400,
-      "price": 300.0
+      "id": 0,
+      "label": "Intensive English Course",
+      "session": "SUMMER",
+      "language": "EN",
+      "level": "A1",
+      "startDate": "2017-01-01",
+      "finishDate": "2017-05-01",
+      "price": 300
     },
     {
-      "id" : 1,
-      "label" : "Weekend French Course",
-      "session" : "SPRING",
-      "language" : "FR",
-      "level" : "B2",
-      "startDate" : 1522882800,
-      "finishDate" : 1533337200,
-      "price": 650.0
+      "id": 1,
+      "label": "Weekend French Course",
+      "session": "SPRING",
+      "language": "FR",
+      "level": "B2",
+      "startDate": "2017-05-01",
+      "finishDate": "2017-09-01",
+      "price": 650
     },
     {
-      "id" : 2,
-      "label" : "Intensive German Course",
-      "session" : "WINTER",
-      "language" : "GR",
-      "level" : "A2",
-      "startDate" : 1514847600,
-      "finishDate" : 1525215600,
-      "price": 400.0
+      "id": 2,
+      "label": "Intensive German Course",
+      "session": "WINTER",
+      "language": "GR",
+      "level": "A2",
+      "startDate": "2017-09-01",
+      "finishDate": "2017-12-01",
+      "price": 400
     },
     {
-      "id" : 3,
-      "label" : "Extensive German Course",
-      "session" : "SUMMER",
-      "language" : "GR",
-      "level" : "A1",
-      "startDate" : 1527894000,
-      "finishDate" : 1538348400,
-      "price": 375.0
+      "id": 3,
+      "label": "Extensive German Course",
+      "session": "SUMMER",
+      "language": "GR",
+      "level": "A1",
+      "startDate": "2017-12-01",
+      "finishDate": "2018-03-01",
+      "price": 375
     }
   ],
   "students": [
     {
-      "id" : 0,
-      "fullName" : "Pope Rowe",
-      "telNumber" : "25624815",
-      "email": "poperowe@conjurica.com",
-      "adress" : "721 Kings Place, Kiskimere, New Jersey, 2916",
-      "birthDate" : 624844697,
-      "courses" : [
-      	{
-	      "id" : 0,
-	      "label" : "Intensive English Course",
-	      "session" : "SUMMER",
-	      "language" : "EN",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 300.0
-	    },
-	    {
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    }
-      ]
-    },
-    {
-      "id" : 1,
-      "fullName" : "Barker Swanson",
-      "telNumber" : "23514786",
+      "id": 1,
+      "fullName": "Barker Swanson",
+      "telNumber": "23514786",
       "email": "barkerswanson@conjurica.com",
-      "adress" : "721 Kings Place, Kiskimere, New Jersey, 2916",
-      "birthDate" : 700703897,
-      "courses" : [
-      	{
-	      "id" : 3,
-	      "label" : "Extensive German Course",
-	      "session" : "SUMMER",
-	      "language" : "GR",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 375.0
-	    }
+      "adress": "721 Kings Place, Kiskimere, New Jersey, 2916",
+      "birthDate": "1995-06-02",
+      "courses": [
+        {
+          "id": 3,
+          "label": "Extensive German Course",
+          "session": "SUMMER",
+          "language": "GR",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 375
+        },
+        {
+          "id": 0,
+          "label": "Intensive English Course",
+          "session": "SUMMER",
+          "language": "EN",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 300
+        }
       ]
     },
     {
-      "id" : 2,
-      "fullName" : "Myrna Scott",
-      "telNumber" : "95624813",
+      "id": 2,
+      "fullName": "Myrna Scott",
+      "telNumber": "95624813",
       "email": "myrnascott@conjurica.com",
-      "adress" : "971 Garland Court, Sena, Florida, 6189",
-      "birthDate" : 618191897,
-      "courses" : [
-      	{
-	      "id" : 0,
-	      "label" : "Intensive English Course",
-	      "session" : "SUMMER",
-	      "language" : "EN",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 300.0
-	    }
+      "adress": "971 Garland Court, Sena, Florida, 6189",
+      "birthDate": "1994-02-15",
+      "courses": [
+        {
+          "id": 0,
+          "label": "Intensive English Course",
+          "session": "SUMMER",
+          "language": "EN",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 300
+        }
       ]
     },
     {
-      "id" : 3,
-      "fullName" : "Mueller Crawford",
-      "telNumber" : "50214789",
+      "id": 3,
+      "fullName": "Mueller Crawford",
+      "telNumber": "26154896",
       "email": "muellercrawford@conjurica.com",
-      "adress" : "948 Aberdeen Street, Cotopaxi, Ohio, 4389",
-      "birthDate" : 766468697,
-      "courses" : [
-      	{
-	      "id" : 3,
-	      "label" : "Extensive German Course",
-	      "session" : "SUMMER",
-	      "language" : "GR",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 375.0
-	    }
+      "adress": "948 Aberdeen Street, Cotopaxi, Ohio, 4389",
+      "birthDate": "1994-05-03",
+      "courses": [
+        {
+          "id": 3,
+          "label": "Extensive German Course",
+          "session": "SUMMER",
+          "language": "GR",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 375
+        },
+        {
+          "id": 0,
+          "label": "Intensive English Course",
+          "session": "SUMMER",
+          "language": "EN",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 300
+        },
+        {
+          "id": 1,
+          "label": "Weekend French Course",
+          "session": "SPRING",
+          "language": "FR",
+          "level": "B2",
+          "startDate": 1522882800,
+          "finishDate": 1533337200,
+          "price": 650
+        }
       ]
     },
     {
-      "id" : 4,
-      "fullName" : "Price Henry",
-      "telNumber" : "55268951",
+      "id": 4,
+      "fullName": "Price Henry",
+      "telNumber": "55268951",
       "email": "pricehenry@conjurica.com",
-      "adress" : "242 Bedford Place, Shepardsville, Guam, 209",
-      "birthDate" : 376113497,
-      "courses" : [
-      	{
-	      "id" : 0,
-	      "label" : "Intensive English Course",
-	      "session" : "SUMMER",
-	      "language" : "EN",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 300.0
-	    },
-	    {
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    },
-	    {
-	      "id" : 3,
-	      "label" : "Extensive German Course",
-	      "session" : "SUMMER",
-	      "language" : "GR",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 375.0
-	    }
+      "adress": "242 Bedford Place, Shepardsville, Guam, 209",
+      "birthDate": "1993-08-08",
+      "courses": [
+        {
+          "id": 0,
+          "label": "Intensive English Course",
+          "session": "SUMMER",
+          "language": "EN",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 300
+        },
+        {
+          "id": 1,
+          "label": "Weekend French Course",
+          "session": "SPRING",
+          "language": "FR",
+          "level": "B2",
+          "startDate": 1522882800,
+          "finishDate": 1533337200,
+          "price": 650
+        },
+        {
+          "id": 3,
+          "label": "Extensive German Course",
+          "session": "SUMMER",
+          "language": "GR",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 375
+        }
       ]
     },
     {
-      "id" : 5,
-      "fullName" : "Lamb Holland",
-      "telNumber" : "26159753",
+      "id": 5,
+      "fullName": "Lamb Holland",
+      "telNumber": "26159753",
       "email": "lambholland@conjurica.com",
-      "adress" : "300 Applegate Court, Waumandee, Connecticut, 5333",
-      "birthDate" : 402735017,
-      "courses" : [
-      	{
-	      "id" : 0,
-	      "label" : "Intensive English Course",
-	      "session" : "SUMMER",
-	      "language" : "EN",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 300.0
-	    }
+      "adress": "300 Applegate Court, Waumandee, Connecticut, 5333",
+      "birthDate": "1998-01-19",
+      "courses": [
+        {
+          "id": 0,
+          "label": "Intensive English Course",
+          "session": "SUMMER",
+          "language": "EN",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 300
+        },
+        {
+          "id": 2,
+          "label": "Intensive German Course",
+          "session": "WINTER",
+          "language": "GR",
+          "level": "A2",
+          "startDate": 1514847600,
+          "finishDate": 1525215600,
+          "price": 400
+        }
       ]
     },
     {
-      "id" : 6,
-      "fullName" : "Manuela Rush",
-      "telNumber" : "94148259",
-      "email": "manuelarush@conjurica.com",
-      "adress" : "589 Troy Avenue, Lowgap, District Of Columbia, 5948",
-      "birthDate" : 645000617,
-      "courses" : [
-      	{
-	      "id" : 3,
-	      "label" : "Extensive German Course",
-	      "session" : "SUMMER",
-	      "language" : "GR",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 375.0
-	    },
-	    {
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    }
-      ]
-    },
-    {
-      "id" : 7,
-      "fullName" : "Amber Compton",
-      "telNumber" : "23154786",
+      "id": 7,
+      "fullName": "Amber Compton",
+      "telNumber": "23154786",
       "email": "ambercompton@conjurica.com",
-      "adress" : "908 Livonia Avenue, Bradenville, Utah, 9742",
-      "birthDate" : 748363577,
-      "courses" : [
-      	{
-	      "id" : 3,
-	      "label" : "Extensive German Course",
-	      "session" : "SUMMER",
-	      "language" : "GR",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 375.0
-	    }
+      "adress": "908 Livonia Avenue, Bradenville, Utah, 9742",
+      "birthDate": "1992-01-30",
+      "courses": [
+        {
+          "id": 3,
+          "label": "Extensive German Course",
+          "session": "SUMMER",
+          "language": "GR",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 375
+        }
       ]
     },
     {
-      "id" : 8,
-      "fullName" : "Leta Sloan",
-      "telNumber" : "96852456",
+      "id": 8,
+      "fullName": "Leta Sloan",
+      "telNumber": "96852456",
       "email": "letasloan@conjurica.com",
-      "adress" : "628 Concord Street, Grayhawk, American Samoa, 8591",
-      "birthDate" : 808757177,
-      "courses" : [
-      	{
-	      "id" : 0,
-	      "label" : "Intensive English Course",
-	      "session" : "SUMMER",
-	      "language" : "EN",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 300.0
-	    },
-	    {
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    }
+      "adress": "628 Concord Street, Grayhawk, American Samoa, 8591",
+      "birthDate": "1997-01-01",
+      "courses": [
+        {
+          "id": 0,
+          "label": "Intensive English Course",
+          "session": "SUMMER",
+          "language": "EN",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 300
+        },
+        {
+          "id": 1,
+          "label": "Weekend French Course",
+          "session": "SPRING",
+          "language": "FR",
+          "level": "B2",
+          "startDate": 1522882800,
+          "finishDate": 1533337200,
+          "price": 650
+        }
       ]
     },
     {
-      "id" : 9,
-      "fullName" : "Haley Short",
-      "telNumber" : "54156842",
+      "id": 9,
+      "fullName": "Haley Short",
+      "telNumber": "54156842",
       "email": "haleyshort@conjurica.com",
-      "adress" : "129 Bath Avenue, Deseret, South Dakota, 7454",
-      "birthDate" : 727094777,
-      "courses" : [
-      	{
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    }
+      "adress": "129 Bath Avenue, Deseret, South Dakota, 7454",
+      "birthDate": "1993-01-09",
+      "courses": [
+        {
+          "id": 1,
+          "label": "Weekend French Course",
+          "session": "SPRING",
+          "language": "FR",
+          "level": "B2",
+          "startDate": 1522882800,
+          "finishDate": 1533337200,
+          "price": 650
+        }
       ]
     },
     {
-      "id" : 10,
-      "fullName" : "Compton Hammond",
-      "telNumber" : "20158742",
+      "id": 10,
+      "fullName": "Compton Hammond",
+      "telNumber": "20158742",
       "email": "comptonhammond@conjurica.com",
-      "adress" : "814 Ridgewood Place, Hayes, Kentucky, 1817",
-      "birthDate" : 844670237,
-      "courses" : [
-      	{
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    }
+      "adress": "814 Ridgewood Place, Hayes, Kentucky, 1817",
+      "birthDate": "1994-05-26",
+      "courses": [
+        {
+          "id": 1,
+          "label": "Weekend French Course",
+          "session": "SPRING",
+          "language": "FR",
+          "level": "B2",
+          "startDate": 1522882800,
+          "finishDate": 1533337200,
+          "price": 650
+        }
       ]
     },
     {
-      "id" : 11,
-      "fullName" : "Medina Frye",
-      "telNumber" : "26159855",
+      "id": 11,
+      "fullName": "Medina Frye",
+      "telNumber": "26159855",
       "email": "medinafrye@conjurica.com",
-      "adress" : "332 Luquer Street, Freetown, Hawaii, 6644",
-      "birthDate" : 786523037,
-      "courses" : [
-      	{
-	      "id" : 3,
-	      "label" : "Extensive German Course",
-	      "session" : "SUMMER",
-	      "language" : "GR",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 375.0
-	    }
+      "adress": "332 Luquer Street, Freetown, Hawaii, 6644",
+      "birthDate": "1997-01-31",
+      "courses": [
+        {
+          "id": 3,
+          "label": "Extensive German Course",
+          "session": "SUMMER",
+          "language": "GR",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 375
+        }
       ]
     },
     {
-      "id" : 12,
-      "fullName" : "Gonzales Roman",
-      "telNumber" : "92154448",
+      "id": 12,
+      "fullName": "Gonzales Roman",
+      "telNumber": "92154448",
       "email": "gonzalesroman@conjurica.com",
-      "adress" : "788 Brighton Court, Gerber, Delaware, 7063",
-      "birthDate" : 794140037,
-      "courses" : [
-      	{
-	      "id" : 3,
-	      "label" : "Extensive German Course",
-	      "session" : "SUMMER",
-	      "language" : "GR",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 375.0
-	    },
-	    {
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    }
+      "adress": "788 Brighton Court, Gerber, Delaware, 7063",
+      "birthDate": "1998-08-19",
+      "courses": [
+        {
+          "id": 3,
+          "label": "Extensive German Course",
+          "session": "SUMMER",
+          "language": "GR",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 375
+        },
+        {
+          "id": 1,
+          "label": "Weekend French Course",
+          "session": "SPRING",
+          "language": "FR",
+          "level": "B2",
+          "startDate": 1522882800,
+          "finishDate": 1533337200,
+          "price": 650
+        }
       ]
     },
     {
-      "id" : 13,
-      "fullName" : "Corinne Vazquez",
-      "telNumber" : "25846933",
+      "id": 13,
+      "fullName": "Corinne Vazquez",
+      "telNumber": "25846933",
       "email": "corinnevazquez@conjurica.com",
-      "adress" : "957 Cyrus Avenue, Alderpoint, Arizona, 4881",
-      "birthDate" : 610453637,
-      "courses" : [
-      	{
-	      "id" : 0,
-	      "label" : "Intensive English Course",
-	      "session" : "SUMMER",
-	      "language" : "EN",
-	      "level" : "A1",
-	      "startDate" : 1527894000,
-	      "finishDate" : 1538348400,
-	      "price": 300.0
-	    },
-	    {
-	      "id" : 1,
-	      "label" : "Weekend French Course",
-	      "session" : "SPRING",
-	      "language" : "FR",
-	      "level" : "B2",
-	      "startDate" : 1522882800,
-	      "finishDate" : 1533337200,
-	      "price": 650.0
-	    }
+      "adress": "957 Cyrus Avenue, Alderpoint, Arizona, 4881",
+      "birthDate": "1990-10-10",
+      "courses": [
+        {
+          "id": 0,
+          "label": "Intensive English Course",
+          "session": "SUMMER",
+          "language": "EN",
+          "level": "A1",
+          "startDate": 1527894000,
+          "finishDate": 1538348400,
+          "price": 300
+        },
+        {
+          "id": 1,
+          "label": "Weekend French Course",
+          "session": "SPRING",
+          "language": "FR",
+          "level": "B2",
+          "startDate": 1522882800,
+          "finishDate": 1533337200,
+          "price": 650
+        }
       ]
     }
   ]
